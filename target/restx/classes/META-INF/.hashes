@@ -1,9 +1,10 @@
 src/main/java**romanconverter/utils/RomanConverterUtil.java**29988a40e7ed50c69de701d3d5827def**1465660089000
 src/main/java**romanconverter/domain/Message.java**2dc6c80510844d7cd9ccfe97594611f8**1465657655000
+src/main/java**romanconverter/service/RomanConverterService.java**4d562ea389c2603ce05f9751b72bcca8**1465742704000
 src/main/java**romanconverter/rest/Rules.java**63ecc8f84e3e2d1e5facac10d15e40bd**1465660880000
 src/main/java**exceptions/NotRomanNumeralException.java**7d468219e60e35f5eb64f96a574976d1**1465660075000
 src/main/java**romanconverter/AppServer.java**7b38c9aa207e3111c39b18d56a2c6ba4**1465657655000
 src/main/java**romanconverter/Roles.java**8a5cb20bcb1d682102302428418188ed**1465657655000
-src/main/java**romanconverter/rest/HelloResource.java**66f8d6ae23364fdf745212710c60bba2**1465679185000
+src/main/java**romanconverter/rest/HelloResource.java**54c46dc553cfec42bfc5158c2c5ff8ba**1465742576000
 src/main/java**romanconverter/AppModule.java**f0a28399243a15d477d557b96dceb281**1465678383000
 src/main/java**exceptions/NumberOutOfRangeException.java**2ca0f1c500a3ca5458ce5d9db70c00ae**1465660034000

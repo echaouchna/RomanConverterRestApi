@@ -1176,3 +1176,190 @@ Caused by: com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not co
 2016-06-12 02:40:43,372 [qtp1372082959-37] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 977,1 μs
 2016-06-12 02:44:57,456 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
 2016-06-12 02:44:57,526 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-06-12 16:37:00,027 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-12 16:37:02,606 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-12 16:37:02,653 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9090/api/@/ui/
+ --
+
+2016-06-12 16:37:02,816 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:37:03,805 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:37:03,836 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/nabil/workspace/react/refluxjs-todo-master/restx/romanconverter/.
+2016-06-12 16:37:04,101 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-12 16:37:10,308 [qtp1372082959-21] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-12 16:37:10,893 [qtp1372082959-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=12 - per request factory created in 2,612 s
+2016-06-12 16:37:11,300 [qtp1372082959-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=121 - per request factory created in 346,6 ms
+2016-06-12 16:37:11,353 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=12 >> OK - 459,2 ms
+2016-06-12 16:37:11,372 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=121 >> OK - 71,42 ms
+2016-06-12 16:37:16,828 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=12 >> OK - 7,468 ms
+2016-06-12 16:37:17,048 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=1 >> OK - 3,488 ms
+2016-06-12 16:37:18,148 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=1 >> OK - 2,490 ms
+2016-06-12 16:37:18,268 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=12 >> OK - 2,273 ms
+2016-06-12 16:37:18,448 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=121 >> OK - 2,466 ms
+2016-06-12 16:37:22,068 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=12 >> OK - 3,194 ms
+2016-06-12 16:37:22,326 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=1 >> OK - 4,221 ms
+2016-06-12 16:37:28,191 [qtp1372082959-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToArabic ? roman=1 - per request factory created in 401,1 ms
+2016-06-12 16:37:28,667 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=1 >> BAD_REQUEST - 475,3 ms
+2016-06-12 16:37:31,997 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=X >> OK - 179,4 ms
+2016-06-12 16:37:34,541 [qtp1372082959-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToArabic ? roman=C - per request factory created in 588,4 ms
+2016-06-12 16:37:34,543 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=C >> OK - 1,469 ms
+2016-06-12 16:37:34,980 [qtp1372082959-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 1,322 s
+2016-06-12 16:37:34,988 [qtp1372082959-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 1,331 s
+2016-06-12 16:37:35,280 [qtp1372082959-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /sessions/current - per request factory created in 295,2 ms
+2016-06-12 16:37:35,436 [qtp1372082959-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/pages - per request factory created in 445,5 ms
+2016-06-12 16:37:35,478 [qtp1372082959-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/pages >> OK - 40,33 ms
+2016-06-12 16:37:35,515 [qtp1372082959-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /sessions/current >> OK - 233,9 ms
+2016-06-12 16:37:35,858 [qtp1372082959-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs >> OK - 613,2 ms
+2016-06-12 16:37:36,177 [qtp1372082959-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/json-schema - per request factory created in 282,8 ms
+2016-06-12 16:37:36,307 [qtp1372082959-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/specs >> OK - 359,4 ms
+2016-06-12 16:37:36,319 [qtp1372082959-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/admin-pages >> OK - 380,4 ms
+2016-06-12 16:37:36,559 [qtp1372082959-25] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/messages-admin - per request factory created in 411,5 ms
+2016-06-12 16:37:36,632 [qtp1372082959-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/json-schema >> OK - 453,6 ms
+2016-06-12 16:37:36,654 [qtp1372082959-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/config - per request factory created in 499,5 ms
+2016-06-12 16:37:36,847 [qtp1372082959-25] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages-admin >> OK - 287,0 ms
+2016-06-12 16:37:36,857 [qtp1372082959-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/log-admin - per request factory created in 468,6 ms
+2016-06-12 16:37:36,863 [qtp1372082959-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/messages - per request factory created in 554,3 ms
+2016-06-12 16:37:36,867 [qtp1372082959-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/config >> OK - 211,4 ms
+2016-06-12 16:37:36,873 [qtp1372082959-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/metrics >> OK - 252,1 ms
+2016-06-12 16:37:36,890 [qtp1372082959-21] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/messages >> OK - 26,55 ms
+2016-06-12 16:37:36,954 [qtp1372082959-27] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/monitor >> OK - 65,31 ms
+2016-06-12 16:37:36,990 [qtp1372082959-23] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/log-admin >> OK - 132,5 ms
+2016-06-12 16:37:37,290 [qtp1372082959-25] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToArabic ? roman=M - per request factory created in 257,5 ms
+2016-06-12 16:37:37,292 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 1,816 ms
+2016-06-12 16:37:37,387 [qtp1372082959-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /@/api-docs/hello - per request factory created in 280,4 ms
+2016-06-12 16:37:37,457 [qtp1372082959-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToArabic ? roman=MM - per request factory created in 325,7 ms
+2016-06-12 16:37:37,458 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 1,212 ms
+2016-06-12 16:37:37,469 [qtp1372082959-24] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/sessions >> OK - 241,7 ms
+2016-06-12 16:37:37,479 [qtp1372082959-26] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/session >> OK - 199,3 ms
+2016-06-12 16:37:37,535 [qtp1372082959-22] [admin     ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /@/api-docs/hello >> OK - 145,6 ms
+2016-06-12 16:37:38,449 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMI >> OK - 1,352 ms
+2016-06-12 16:37:39,946 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 2,717 ms
+2016-06-12 16:37:40,177 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 97,08 ms
+2016-06-12 16:37:43,589 [qtp1372082959-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 27,38 ms
+2016-06-12 16:37:43,694 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 2,275 ms
+2016-06-12 16:37:44,352 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMI >> OK - 7,239 ms
+2016-06-12 16:37:45,451 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 3,714 ms
+2016-06-12 16:37:45,733 [qtp1372082959-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 1,924 ms
+2016-06-12 16:38:06,496 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=2 >> OK - 6,306 ms
+2016-06-12 16:38:06,690 [qtp1372082959-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=20 >> OK - 1,556 ms
+2016-06-12 16:38:06,853 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=200 >> OK - 1,740 ms
+2016-06-12 16:38:06,974 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=2001 >> OK - 1,455 ms
+2016-06-12 16:38:08,866 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=200 >> OK - 1,321 ms
+2016-06-12 16:38:08,975 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=20 >> OK - 1,633 ms
+2016-06-12 16:38:09,102 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=2 >> OK - 4,911 ms
+2016-06-12 16:38:12,556 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 1,149 ms
+2016-06-12 16:38:12,678 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 859,7 μs
+2016-06-12 16:38:12,935 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMI >> OK - 1,439 ms
+2016-06-12 16:38:13,848 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 848,8 μs
+2016-06-12 16:38:13,953 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 1,355 ms
+2016-06-12 16:38:19,527 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 1,076 ms
+2016-06-12 16:38:19,875 [qtp1372082959-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 1,658 ms
+2016-06-12 16:38:20,212 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMM >> OK - 1,158 ms
+2016-06-12 16:38:20,653 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMM >> OK - 1,055 ms
+2016-06-12 16:38:21,068 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMM >> OK - 902,8 μs
+2016-06-12 16:38:21,405 [qtp1372082959-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMM >> OK - 1,040 ms
+2016-06-12 16:38:21,620 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMM >> OK - 855,2 μs
+2016-06-12 16:38:21,783 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMM >> OK - 794,3 μs
+2016-06-12 16:38:21,947 [qtp1372082959-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMM >> OK - 788,6 μs
+2016-06-12 16:38:22,246 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMM >> OK - 784,5 μs
+2016-06-12 16:38:22,432 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMMM >> OK - 1,131 ms
+2016-06-12 16:38:22,733 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMMMM >> OK - 957,9 μs
+2016-06-12 16:38:22,870 [qtp1372082959-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMMMMM >> OK - 740,7 μs
+2016-06-12 16:38:23,027 [qtp1372082959-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMMMMMM >> OK - 917,0 μs
+2016-06-12 16:38:23,780 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMMMMM >> OK - 838,2 μs
+2016-06-12 16:38:24,285 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMMMM >> OK - 691,5 μs
+2016-06-12 16:38:24,382 [qtp1372082959-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMMM >> OK - 728,0 μs
+2016-06-12 16:38:24,456 [qtp1372082959-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMMM >> OK - 712,2 μs
+2016-06-12 16:38:24,562 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMMM >> OK - 1,049 ms
+2016-06-12 16:38:24,633 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMMM >> OK - 1,837 ms
+2016-06-12 16:38:24,719 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMMM >> OK - 1,086 ms
+2016-06-12 16:38:24,790 [qtp1372082959-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMMM >> OK - 998,6 μs
+2016-06-12 16:38:24,877 [qtp1372082959-27] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMMM >> OK - 1,058 ms
+2016-06-12 16:38:24,971 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMM >> OK - 1,330 ms
+2016-06-12 16:38:25,070 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMM >> OK - 734,2 μs
+2016-06-12 16:38:25,127 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 1,016 ms
+2016-06-12 16:38:25,213 [qtp1372082959-26] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 1,140 ms
+2016-06-12 16:40:06,056 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 2,089 s
+2016-06-12 16:40:15,042 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 2 sources compiled in 1,088 s
+2016-06-12 16:40:34,066 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 105,0 ms
+2016-06-12 16:40:44,071 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 112,6 ms
+2016-06-12 16:41:24,086 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 128,7 ms
+2016-06-12 16:43:04,278 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 323,6 ms
+2016-06-12 16:43:05,704 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-06-12 16:43:05,762 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-06-12 16:43:10,689 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-12 16:43:11,296 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-12 16:43:11,304 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9090/api/@/ui/
+ --
+
+2016-06-12 16:43:11,341 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:43:11,568 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:43:11,604 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/nabil/workspace/react/refluxjs-todo-master/restx/romanconverter/.
+2016-06-12 16:43:11,660 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-12 16:43:24,570 [qtp1372082959-21] [          ] ERROR restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=1 - Exception when using factory to load router: 
+  QueryByName{name=Name{name='RestxRouting', clazz=restx.RestxRouting[AppClassLoader]}}
+    |       \__=> Name{name='RestxRouting', clazz=restx.RestxRouting[AppClassLoader]}
+    |
+    +-> QueryByClass{componentClass=restx.RestxRouter[AppClassLoader]}
+      |       \__=> Name{name='HelloResourceRouter', clazz=romanconverter.rest.HelloResourceRouter[HotCompile[2]]}
+      |
+      +-> QueryByClass{componentClass=romanconverter.rest.HelloResource[HotCompile[2]]}
+        |       \__=> Name{name='HelloResource', clazz=romanconverter.rest.HelloResource[HotCompile[2]]}
+        |
+        +-> QueryByClass{componentClass=romanconverter.service.RomanConverterService[HotCompile[2]]}
+              |
+              +--: component satisfying QueryByClass{componentClass=romanconverter.service.RomanConverterService[HotCompile[2]]} not found.
+
+Pro Tip: Set HTTP Header RestxDebug to have a dump of the factory in your logs when you get this error.
+2016-06-12 16:43:24,579 [qtp1372082959-21] [          ] WARN  restx.AbstractResponse - no charset defined while getting writer to write http response. Make sure you call setContentType() before calling getWriter(). Using UTF-8 charset.
+2016-06-12 16:43:24,582 [qtp1372082959-21] [          ] ERROR restx.RestxMainRouterFactory - Error when loading Factory to process your request.
+One or more dependency injections can be sastifed.
+
+  
+    QueryByName{name=Name{name='RestxRouting', clazz=restx.RestxRouting[AppClassLoader]}}
+      |       \__=> Name{name='RestxRouting', clazz=restx.RestxRouting[AppClassLoader]}
+      |
+      +-> QueryByClass{componentClass=restx.RestxRouter[AppClassLoader]}
+        |       \__=> Name{name='HelloResourceRouter', clazz=romanconverter.rest.HelloResourceRouter[HotCompile[2]]}
+        |
+        +-> QueryByClass{componentClass=romanconverter.rest.HelloResource[HotCompile[2]]}
+          |       \__=> Name{name='HelloResource', clazz=romanconverter.rest.HelloResource[HotCompile[2]]}
+          |
+          +-> QueryByClass{componentClass=romanconverter.service.RomanConverterService[HotCompile[2]]}
+                |
+                +--: component satisfying QueryByClass{componentClass=romanconverter.service.RomanConverterService[HotCompile[2]]} not found.
+
+2016-06-12 16:45:07,882 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-06-12 16:45:07,941 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-06-12 16:45:13,039 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-12 16:45:13,694 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-12 16:45:13,702 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9090/api/@/ui/
+ --
+
+2016-06-12 16:45:13,730 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:45:15,033 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 1,169 s
+2016-06-12 16:45:15,221 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:45:15,291 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/nabil/workspace/react/refluxjs-todo-master/restx/romanconverter/.
+2016-06-12 16:45:15,334 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-12 16:45:29,077 [qtp1372082959-21] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-12 16:45:29,275 [qtp1372082959-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=1 - per request factory created in 639,3 ms
+2016-06-12 16:45:29,361 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=1 >> OK - 84,65 ms
+2016-06-12 16:45:32,277 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=12 >> OK - 12,26 ms
+2016-06-12 16:45:34,022 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=1 >> OK - 4,866 ms
+2016-06-12 16:45:36,271 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=0 >> BAD_REQUEST - 18,33 ms
+2016-06-12 16:45:39,341 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=1 >> OK - 2,162 ms
+2016-06-12 16:45:39,590 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=10 >> OK - 2,539 ms
+2016-06-12 16:45:40,179 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=102 >> OK - 3,580 ms
+2016-06-12 16:45:56,833 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-06-12 16:45:56,888 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
