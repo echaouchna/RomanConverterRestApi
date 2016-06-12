@@ -13,33 +13,33 @@ import exceptions.NotRomanNumeralException;
 import exceptions.NumberOutOfRangeException;
 
 @Component @RestxResource
-public class HelloResource {
+public class ConverterResource {
 	
 	private final RestxErrors errors;
 	private final RomanConverterService romanConverterService;
 	
-	public HelloResource(RestxErrors errors, RomanConverterService romanConverterService) {
+	public ConverterResource(RestxErrors errors, RomanConverterService romanConverterService) {
 		this.errors = errors;
 		this.romanConverterService = romanConverterService;
 	}
 	
 	public static class Rules {
-	    @ErrorCode(code = "ROMAN-CONVERTER-001", description = "Number out of range 1-3999")
+	    @ErrorCode(code = "ROMAN-CONVERTER-ERROR-001", description = "Number out of range 1-3999")
 	    public static enum IntegerNumberRef {
 	        @ErrorField("number") KEY
 	    }
-	    @ErrorCode(code = "ROMAN-CONVERTER-002", description = "Not a roman number")
+	    @ErrorCode(code = "ROMAN-CONVERTER-ERROR-002", description = "Not a roman number")
 	    public static enum RomanNumberRef {
 	        @ErrorField("number") KEY
 	    }
 	}
     
     /**
-     * Say hello to anybody.
+     * Convert to Roman.
      *
      * Does not require authentication.
      *
-     * @return a Message to say hello
+     * @return roman number
      * @throws NumberOutOfRangeException 
      */
     @GET("/convertToRoman")
@@ -55,11 +55,11 @@ public class HelloResource {
     }
     
     /**
-     * Say hello to anybody.
+     * Convert to Arabic.
      *
      * Does not require authentication.
      *
-     * @return a Message to say hello
+     * @return arabic number
      * @throws NumberOutOfRangeException 
      */
     @GET("/convertToArabic")

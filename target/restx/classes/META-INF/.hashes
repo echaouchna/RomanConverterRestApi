@@ -5,6 +5,7 @@ src/main/java**romanconverter/rest/Rules.java**63ecc8f84e3e2d1e5facac10d15e40bd*
 src/main/java**exceptions/NotRomanNumeralException.java**7d468219e60e35f5eb64f96a574976d1**1465660075000
 src/main/java**romanconverter/AppServer.java**7b38c9aa207e3111c39b18d56a2c6ba4**1465657655000
 src/main/java**romanconverter/Roles.java**8a5cb20bcb1d682102302428418188ed**1465657655000
+src/main/java**romanconverter/rest/ConverterResource.java**93f859d7ef544f624944c5bb363c2a26**1465743379000
 src/main/java**romanconverter/rest/HelloResource.java**54c46dc553cfec42bfc5158c2c5ff8ba**1465742576000
 src/main/java**romanconverter/AppModule.java**f0a28399243a15d477d557b96dceb281**1465678383000
 src/main/java**exceptions/NumberOutOfRangeException.java**2ca0f1c500a3ca5458ce5d9db70c00ae**1465660034000

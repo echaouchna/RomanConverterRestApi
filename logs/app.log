@@ -1363,3 +1363,137 @@ One or more dependency injections can be sastifed.
 2016-06-12 16:45:40,179 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=102 >> OK - 3,580 ms
 2016-06-12 16:45:56,833 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
 2016-06-12 16:45:56,888 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-06-12 16:49:08,178 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-12 16:49:08,864 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-12 16:49:08,877 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9090/api/@/ui/
+ --
+
+2016-06-12 16:49:08,928 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:49:09,159 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:49:09,196 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/nabil/workspace/react/refluxjs-todo-master/restx/romanconverter/.
+2016-06-12 16:49:09,274 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-12 16:49:23,898 [qtp1372082959-22] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-12 16:49:24,090 [qtp1372082959-24] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=3999 - per request factory created in 444,1 ms
+2016-06-12 16:49:24,090 [qtp1372082959-23] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=399 - per request factory created in 589,7 ms
+2016-06-12 16:49:24,090 [qtp1372082959-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=3 - per request factory created in 887,4 ms
+2016-06-12 16:49:24,090 [qtp1372082959-22] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=39 - per request factory created in 813,4 ms
+2016-06-12 16:49:24,183 [qtp1372082959-23] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=399 >> OK - 92,73 ms
+2016-06-12 16:49:24,192 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=39 >> OK - 100,4 ms
+2016-06-12 16:49:24,193 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=3 >> OK - 101,9 ms
+2016-06-12 16:49:24,195 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=3999 >> OK - 104,8 ms
+2016-06-12 16:49:31,569 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=3 >> OK - 4,563 ms
+2016-06-12 16:49:32,611 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=39 >> OK - 2,562 ms
+2016-06-12 16:49:33,111 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=399 >> OK - 2,300 ms
+2016-06-12 16:50:11,925 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=3999 >> OK - 2,087 ms
+2016-06-12 16:51:56,858 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 21,85 ms
+2016-06-12 16:51:57,361 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 4,144 ms
+2016-06-12 16:51:57,816 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMM >> OK - 1,223 ms
+2016-06-12 16:51:58,300 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMM >> OK - 1,452 ms
+2016-06-12 16:52:01,719 [qtp1372082959-24] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMM >> OK - 1,798 ms
+2016-06-12 16:52:05,845 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMC >> OK - 959,8 μs
+2016-06-12 16:52:06,324 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMCM >> OK - 1,119 ms
+2016-06-12 16:52:10,093 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMCMX >> OK - 1,269 ms
+2016-06-12 16:52:11,516 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMCMXC >> OK - 1,109 ms
+2016-06-12 16:52:13,700 [qtp1372082959-25] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMCMXCI >> OK - 1,486 ms
+2016-06-12 16:52:14,636 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMCMXCIX >> OK - 960,3 μs
+2016-06-12 16:52:17,512 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMCMXCIXI >> OK - 1,276 ms
+2016-06-12 16:52:18,750 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMMCMXCIX >> OK - 1,077 ms
+2016-06-12 16:54:11,638 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 2,297 s
+2016-06-12 16:55:10,177 [pool-2-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 856,4 ms
+2016-06-12 16:55:18,561 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-06-12 16:55:18,623 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-06-12 16:55:24,430 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-12 16:55:25,128 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-12 16:55:25,136 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9090/api/@/ui/
+ --
+
+2016-06-12 16:55:25,186 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:55:25,420 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:55:25,448 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/nabil/workspace/react/refluxjs-todo-master/restx/romanconverter/.
+2016-06-12 16:55:25,524 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-12 16:55:39,190 [qtp1372082959-21] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-12 16:55:39,399 [qtp1372082959-21] [          ] WARN  o.e.jetty.servlet.ServletHandler - /api/convertToRoman
+java.lang.IllegalStateException: duplicate error code found: ROMAN-CONVERTER-001
+	at restx.exceptions.ErrorDescriptorsRoute.<init>(ErrorDescriptorsRoute.java:43) ~[restx-admin-0.34.1.jar:na]
+	at restx.exceptions.ErrorDescriptorsRouteFactoryMachine$1.doNewComponent(ErrorDescriptorsRouteFactoryMachine.java:31) ~[restx-admin-0.34.1.jar:na]
+	at restx.exceptions.ErrorDescriptorsRouteFactoryMachine$1.doNewComponent(ErrorDescriptorsRouteFactoryMachine.java:12) ~[restx-admin-0.34.1.jar:na]
+	at restx.factory.StdMachineEngine.newComponent(StdMachineEngine.java:37) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory.buildAndStore(Factory.java:1219) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory.buildAndStore(Factory.java:1205) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory.satisfyBoms(Factory.java:1175) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory.buildAndStore(Factory.java:1069) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory.access$600(Factory.java:37) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory$NameQuery.doFindOne(Factory.java:604) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory$SingleQuery.doFind(Factory.java:521) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory$Query.find(Factory.java:448) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory$ClassQuery.doFind(Factory.java:662) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory$MultipleQuery.doFindOne(Factory.java:486) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory$Query.findOne(Factory.java:437) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory$Query.findOneAsComponent(Factory.java:440) ~[restx-factory-0.34.1.jar:na]
+	at restx.factory.Factory.getComponent(Factory.java:798) ~[restx-factory-0.34.1.jar:na]
+	at restx.RestxMainRouterFactory.newStdRouter(RestxMainRouterFactory.java:544) ~[restx-core-0.34.1.jar:na]
+	at restx.RestxMainRouterFactory.access$600(RestxMainRouterFactory.java:59) ~[restx-core-0.34.1.jar:na]
+	at restx.RestxMainRouterFactory$PerRequestFactoryLoader.route(RestxMainRouterFactory.java:222) ~[restx-core-0.34.1.jar:na]
+	at restx.RestxMainRouterFactory$RecordingMainRouter.route(RestxMainRouterFactory.java:185) ~[restx-core-0.34.1.jar:na]
+	at restx.RestxMainRouterFactory$CompilationManagerRouter.route(RestxMainRouterFactory.java:337) ~[restx-core-0.34.1.jar:na]
+	at restx.servlet.AbstractRestxMainRouterServlet.service(AbstractRestxMainRouterServlet.java:48) ~[restx-servlet-0.34.1.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848) ~[javax.servlet-3.0.0.v201112011016.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:669) ~[jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [jetty-security-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382) [jetty-servlet-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.Server.handle(Server.java:365) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235) [jetty-http-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82) [jetty-server-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52) [jetty-io-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543) [jetty-util-8.1.8.v20121106.jar:8.1.8.v20121106]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_60]
+2016-06-12 16:56:22,222 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-06-12 16:56:22,276 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
+2016-06-12 16:56:27,852 [main            ] [          ] INFO  org.eclipse.jetty.server.Server - jetty-8.1.8.v20121106
+2016-06-12 16:56:29,022 [main            ] [          ] INFO  restx.RestxMainRouterFactory - LOADING MAIN ROUTER
+2016-06-12 16:56:29,033 [main            ] [          ] INFO  restx.RestxMainRouterFactory - 
+--------------------------------------
+ -- RESTX >> LOAD ON REQUEST << >> DEV MODE << >> AUTO COMPILE <<
+ -- for admin console,
+ --   VISIT http://127.0.0.1:9090/api/@/ui/
+ --
+
+2016-06-12 16:56:29,097 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:56:31,995 [pool-1-thread-1 ] [          ] INFO  restx.classloader.CompilationManager - compilation finished: 1 sources compiled in 2,773 s
+2016-06-12 16:56:32,518 [main            ] [          ] INFO  restx.Apps - can't enable Apidocs doclet: make sure tools.jar is in your classpath
+2016-06-12 16:56:32,655 [main            ] [          ] INFO  restx.classloader.CompilationManager - watching for changes in [src/main/java, src/main/resources]; current location is /Users/nabil/workspace/react/refluxjs-todo-master/restx/romanconverter/.
+2016-06-12 16:56:32,759 [main            ] [          ] INFO  restx.monitor.MetricsConfiguration - registering Metrics JVM metrics
+2016-06-12 16:56:37,215 [qtp1372082959-21] [          ] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.0.1.Final
+2016-06-12 16:56:37,389 [qtp1372082959-21] [          ] INFO  restx.RestxMainRouterFactory - [RESTX REQUEST] GET /convertToRoman ? arabic=1 - per request factory created in 534,9 ms
+2016-06-12 16:56:37,471 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=1 >> OK - 80,02 ms
+2016-06-12 16:56:39,509 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToRoman ? arabic=12 >> OK - 27,75 ms
+2016-06-12 16:56:41,955 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=M >> OK - 56,20 ms
+2016-06-12 16:56:42,104 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MM >> OK - 10,52 ms
+2016-06-12 16:56:43,197 [qtp1372082959-22] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMX >> OK - 4,691 ms
+2016-06-12 16:56:44,158 [qtp1372082959-21] [          ] INFO  restx.StdRestxMainRouter - << [RESTX REQUEST] GET /convertToArabic ? roman=MMXC >> OK - 1,688 ms
+2016-06-12 16:56:49,742 [Thread-1        ] [          ] INFO  o.e.j.s.listener.ELContextCleaner - javax.el.BeanELResolver purged
+2016-06-12 16:56:49,798 [Thread-1        ] [          ] INFO  o.e.jetty.util.thread.ShutdownThread - shutdown already commenced
